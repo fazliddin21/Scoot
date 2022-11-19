@@ -77,15 +77,12 @@
 
 // Media
 @media only screen and (max-width: 375px) {
-  * {
-    background: red;
-  }
   .hero {
     padding: 153px 0;
     // Paddings
 
     background-image: url("../../images/hero-bg-of.jpg");
-    background-size: 100%;
+    background-size: 100% 650px;
   }
 
   .hero__text::before {
@@ -105,6 +102,123 @@
   .hero__text {
     margin: 0;
     width: 300px;
+  }
+
+  .hero__inner {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero {
+    padding: 153px 0;
+    // Paddings
+
+    background-image: url("../../images/hero-bg-of.jpg");
+    background-size: 100% 650px;
+  }
+
+  .hero__text::before {
+    background-image: none;
+  }
+
+  .hero__title {
+    width: 311px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .site-button a {
+    display: block;
+  }
+
+  .hero__title h2 {
+    font-size: 40px;
+  }
+
+  .hero__text {
+    margin: 0;
+    width: 300px;
+  }
+
+  .hero__inner {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding: 153px 0;
+    // Paddings
+
+    background-image: url("../../images/hero-bg-of.jpg");
+    background-size: 100% 650px;
+  }
+
+  .hero__text::before {
+    background-image: none;
+  }
+
+  .site-button a {
+    display: block;
+  }
+
+  .hero__title {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero__title h2 {
+    font-size: 40px;
+  }
+
+  .hero__text {
+    margin: 0;
+    width: 400px;
+  }
+
+  .hero__inner {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    padding: 153px 0;
+    // Paddings
+
+    background-image: url("../../images/hero-bg-of.jpg");
+    background-size: 100% 650px;
+  }
+
+  .hero__text::before {
+    background-image: none;
+  }
+
+  .hero__title {
+    width: 310px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero__title h2 {
+    font-size: 40px;
+  }
+
+  .hero__text {
+    margin: 0;
+    width: 310px;
+  }
+
+  .hero__inner {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width: 1257px) {
+  .hero__inner {
+    background-position: right 20px bottom;
   }
 }
 // Media
