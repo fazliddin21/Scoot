@@ -1,4 +1,13 @@
-@import "_header";
-@import "hero";
 @import "_visually-hidden";
 @import "_container";
+@import "_header";
+@import "hero";
+@import "service";
+@import "features";
+@import "footer-up";
+@import "footer";
+
+// About page
+@import "about-hero";
+@import "about-value";
+@import "faq";

@@ -1,0 +1,147 @@
+.values h2 {
+  // Font styles
+  font-weight: 700;
+  font-size: 48px;
+
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.values__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.values__box {
+  width: 350px;
+}
+
+.values__box .values__title {
+  // Margins
+  margin: 32px 0 32px 0;
+
+  // Font styles
+  font-weight: 700;
+  font-size: 24px;
+
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.values__box p {
+  // Font styles
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+
+  text-align: center;
+  color: #939caa;
+}
+
+// Before images
+.values__box--first::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 270px;
+
+  //   Margin
+  margin: 0 auto;
+
+  background-image: -webkit-image-set(
+    url("../../images/value-pic1.jpg") 1x,
+    url("../../images/value-pic1@2x.jpg") 2x
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.values__box--second::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 270px;
+
+  //   Margin
+  margin: 0 auto;
+
+  background-image: -webkit-image-set(
+    url("../../images/value-pic2.jpg") 1x,
+    url("../../images/value-pic2@2x.jpg") 2x
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.values__box--third::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 270px;
+
+  //   Margin
+  margin: 0 auto;
+
+  background-image: -webkit-image-set(
+    url("../../images/value-pic3.jpg") 1x,
+    url("../../images/value-pic3@2x.jpg") 2x
+  );
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+// Before images
+
+// Media
+@media only screen and (max-width: 375px) {
+  .values__inner {
+    display: block;
+  }
+
+  .values__box {
+    margin: 0 auto;
+    width: 311px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .values__inner {
+    display: block;
+  }
+
+  .values__box {
+    margin: 0 auto;
+    width: 321px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .values__inner {
+    display: block;
+  }
+
+  .values__box {
+    margin: 0 auto;
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .values__inner {
+    display: block;
+  }
+
+  .values__box {
+    margin: 0 auto;
+    width: 380px;
+  }
+}
+
+// Media

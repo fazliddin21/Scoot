@@ -1,0 +1,59 @@
+.faq {
+  margin: 120px 0;
+}
+
+.faq__inner {
+  margin: 64px 0;
+}
+
+.faq h2 {
+  // Font styles
+  font-weight: 700;
+  font-size: 48px;
+
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.faq__box h3 {
+  // Font styles
+  font-weight: 700;
+  font-size: 40px;
+
+  line-height: 48px;
+  letter-spacing: -1.78571px;
+  color: #495567;
+}
+
+.accordion-item {
+  margin-bottom: 18px;
+  background-color: #f2f5f9;
+}
+
+.accordion-header button {
+  // Font styles
+  font-weight: 700;
+  font-size: 24px;
+
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.accordion-body p {
+  // Font styles
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+
+  line-height: 25px;
+  color: #495567;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #495567;
+  background-color: #f2f5f9;
+}

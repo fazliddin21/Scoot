@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scoot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -19,14 +22,14 @@
       <div class="site-header__inner">
         <img class="menu-btn" src="./images/menu-btn.svg" alt="Menu button mobile">
         <div class="logo">
-          <a href="#">
+          <a href="./index.html">
             <img src="./images/header-logo.svg" alt="Site-header-logo">
           </a>
         </div>
         <nav class="navbar">
           <ul class="navbar__list">
             <li class="navbar__item">
-              <a class="navbar__link" href="#">About</a>
+              <a class="navbar__link" href="./about.html">About</a>
               <a class="navbar__link" href="#">Location</a>
               <a class="navbar__link" href="#">Careers</a>
             </li>
@@ -60,14 +63,128 @@
       </div>
     </section>
     <!-- Hero -->
+
+    <!-- Services -->
+    <section class="service">
+      <div class="container">
+        <div class="service__inner">
+          <div class="service__boxes">
+            <h3>Locate with app</h3>
+            <p>Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with
+              most demand, so one should never be too far away. </p>
+          </div>
+          <div class="service__boxes">
+            <h3>Pick your scooter</h3>
+            <p>We show the most important info for the scooters closest to you. So you know how much charge they have
+              left and can see roughly how much it will cost.</p>
+          </div>
+          <div class="service__boxes">
+            <h3>Enjoy the ride</h3>
+            <p>Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off!
+              Always lock bikes away from walkways and accessibility ramps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Features -->
+    <div class="features">
+      <div class="container">
+        <div class="features__lap">
+          <div class="features__box">
+            <h4>Easy to use
+              riding telemetry</h4>
+            <p>The Scoot app is available with riding telemetry. This means it can show you your average speed, how
+              long you've been using the scooter, your traveling distance, and many more things all in an easy to use
+              app.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="features__pic">
+            <img src="./images/features-img-1.jpg"
+              srcset="./images/features-img-1.jpg 1x, ./images/features-img-1@2x.jpg 2x" alt="Features pic">
+          </div>
+        </div>
+
+        <div class="features__lap">
+          <div class="features__box">
+            <h4>Coming to a city near you</h4>
+            <p>Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you
+              want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="features__pic">
+            <img src="./images/features-img-2.jpg"
+              srcset="./images/features-img-2.jpg 1x, ./images/features-img-2@2x.jpg 2x" alt="Features pic">
+          </div>
+        </div>
+
+        <div class="features__lap">
+          <div class="features__box">
+            <h4>Zero hassle payments</h4>
+            <p>Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link
+              your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a
+              month.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="features__pic">
+            <img src="./images/features-img-3.jpg"
+              srcset="./images/features-img-3.jpg 1x, ./images/features-img-3@2x.jpg 2x" alt="Features pic">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features -->
+
+    <!-- Footer up -->
+    <section class="footer-up">
+      <div class="container">
+        <div class="footer-up__inner">
+          <div class="footer-up__content footer-up__content--first">
+            <h2>Sign up and Scoot off today</h2>
+          </div>
+          <div class="footer-up__content footer-up__content--second">
+            <a href="https://apple/com/scoot" target="_blank">
+              <img src="./images/download-apple.svg" alt="Download AppleStore">
+            </a>
+            <a href="https://playstore.com/scoot" target="_blank">
+              <img src="./images/download-googleplay.svg" alt="Download GooglePlay">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer up -->
   </main>
 
-  <footer></footer>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <a href="#">
+          <img src="./images/footer-logo.svg" alt="Footer logo">
+        </a>
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">About</a>
+            <a class="navbar__link" href="#">Location</a>
+            <a class="navbar__link" href="#">Careers</a>
+          </li>
+        </ul>
+        <div class="footer__networks">
+          <a href="https://facebook.com" target="_blank" class="fa-brands fa-facebook"></a>
+          <a href="https://twitter.com" target="_blank" class="fa-brands fa-twitter"></a>
+          <a href="https://instagram.com" target="_blank" class="fa-brands fa-instagram"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
 <!--
      Git checkout -b '' yangi branch yaratadi 
+
      Git add . 'Hamma ozgarishlani oladi'
      Git commit -m 'Add smth' Commit qiladi branch
      Git checkout 'branch ismi' branchdan brancha otish
